@@ -1,0 +1,64 @@
+* {
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+header {
+    margin: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 1em;
+}
+
+section {
+    padding: 1em;
+    min-height: 88vh;
+}
+
+h1 {
+    margin-left: 2em;
+    font-family:monospace;
+    font-size: 2.5em;
+}
+
+.instructions {
+    background-color: burlywood;
+}
+
+.troubleshooting {
+    background-color: lavender;
+}
+
+.correct {
+    background-color: thistle;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.troubleshooting img {
+    width: 600px;
+    height: auto;
+}
+
+.troubleshooting p:nth-last-child(1) {
+  margin: 2em;
+}
+
+#analytics {
+    visibility: hidden;
+}
+
+#show {
+  height: 3em;
+}
