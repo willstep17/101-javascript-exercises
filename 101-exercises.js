@@ -246,7 +246,7 @@ addToDone("Exercise 13 is correct.")
 // Exercise 14
 // Write a function definition named isOdd that takes in a number and returns true or false if that number is odd.
 function isOdd(x) {
-  if(x & 2 !== 0) {
+  if(x % 2 !== 0) {
     return true;
   } else {
     return false;
